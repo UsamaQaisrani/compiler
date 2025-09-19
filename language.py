@@ -1,7 +1,7 @@
 from lexer import *
 
 def main():
-    source = "+- */"
+    source = "IF+-123 foo*THEN/"
     lexer = Lexer(source)
 
     token = lexer.getToken()
