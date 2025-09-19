@@ -1,7 +1,12 @@
 from lexer import *
 
 def main():
-    source = "x = 42"
+    source = "+- */"
     lexer = Lexer(source)
+
+    token = lexer.getToken()
+    while token.kind != TokenType.EOF:
+        print(token.kind)
+        token = lexer.getToken()
 
 main()
