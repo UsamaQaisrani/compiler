@@ -7,6 +7,7 @@ class Lexer:
         self.currPos = -1
         self.nextChar()
 
+
     def nextChar(self):
         self.currPos += 1
         if self.currPos >= len(self.source):
