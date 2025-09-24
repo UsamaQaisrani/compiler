@@ -1,6 +1,6 @@
 # My First Compiler
 
-A small compiler that convers BASIC to C and is written in Python.
+A small compiler that compiles BASIC to C and is written in Python.
 
 ## Features
 
